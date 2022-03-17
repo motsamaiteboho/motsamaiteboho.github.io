@@ -220,6 +220,10 @@ h1 {
       justify-content: center;
       align-items: center;
     }
+
+    .software1{
+      padding-left: 0.5em;
+    }
   }
   
   @media all and (max-width: 600px) {
@@ -241,13 +245,10 @@ h1 {
     }
   }
   @media all and (max-width: 300px) {
-    .left_bar{
-      font-size: 0.7em;
-    }
-
-    .right_bar{
-      font-size: 0.7em;
-    }
+    .top_bar{
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
   }
 
 
